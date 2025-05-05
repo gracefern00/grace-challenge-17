@@ -1,30 +1,42 @@
 # grace-challenge-17
 
-# Your Project Title
-
-## Name
-Choose a self-explaining name for your project.
+## social-media-api
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This project is a backend API for a social network application built using Express.js and MongoDB with Mongoose ODM. It allows users to create accounts, share thoughts, react to others’ thoughts, and manage a list of friends, all through RESTful API routes tested in Insomnia. The design focuses on handling unstructured data efficiently and demonstrates core CRUD operations, data modeling, and relationships in a NoSQL database environment.
 
-##Table of Contents
-*optional*
-If your README is long, add a table of contents to make it easy for users to find what they need. EX// 
+##Table of Contents 
 - [Installation](#installation) 
 - [Usage](#usage) 
 - [Credits](#credits) 
 - [License](#license)
 
 ## Installation
-
+- Clone the repository
+- Install dependencies
+- Ensure MongoDB is installed and running
+- Start MongoDB in a separate terminal
+- Start the Server: npm start
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+A user can run this backend API locally with Node.js and MongoDB to create, view, update, and delete users, thoughts, reactions, and friend connections via tools like Insomnia.
 
 ## Features
-If your project has a lot of features, list them here.
+User Management: Create, view, update, and delete users.
 
+Thought Sharing: Users can post thoughts and manage their content.
+
+Reactions: Add or remove reactions to thoughts using nested subdocuments.
+
+Friend Lists: Users can build a list of friends by adding or removing other users.
+
+RESTful API: Full support for GET, POST, PUT, and DELETE requests via HTTP routes.
+
+MongoDB + Mongoose: Structured, schema-based interactions with a NoSQL database.
+
+Timestamp Formatting: Thought and reaction timestamps are readable and consistent.
+
+JSON Responses: Clean and structured JSON for easy integration and testing with tools like Insomnia.
 
 ## Roadmap
 in progress
